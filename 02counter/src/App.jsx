@@ -7,7 +7,11 @@ function App() {
 
   const increaseValue = () => {
     if(counter < 20){
-      setCounter(counter + 1);
+      setCounter(counter + 1); // increase by 1
+      // setCounter(prevCounter => prevCounter +1 )
+      // setCounter(prevCounter => prevCounter +1 )
+      // setCounter(prevCounter => prevCounter +1 )
+      // setCounter(prevCounter => prevCounter +1 )
     } else{
       alert('Maximum value Reached')
     }   
